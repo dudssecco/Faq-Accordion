@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Bold;
+    src: url(../fonts/WorkSans-Bold.ttf) format('trutype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(../fonts/WorkSans-Regular.ttf) format('trutype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(../fonts/WorkSans-SemiBold.ttf) format('trutype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+}
+
+body{
+    background: url(../images/background-pattern-mobile.svg) no-repeat;
+    background-color: var(--Light-pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: var(--White);
+    width: 325px;
+}
+
